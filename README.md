@@ -13,7 +13,7 @@ Linux Commands
 
 Git Commands
 ==
-* Git Aliases
+* Git Aliases<br>
 ```
 git config --global alias.co checkout
 git config --global alias.br branch
