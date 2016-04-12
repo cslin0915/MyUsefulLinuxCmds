@@ -1,4 +1,5 @@
-# MyUsefulLinuxCmds
+Linux Commands
+==
 
 * 在當下目錄找出含有 "vim" 字串的檔案並刪除它們<br>
 `find . -maxdepth 1 -mindepth 1 -type f | grep vim -exec rm {} \;`
