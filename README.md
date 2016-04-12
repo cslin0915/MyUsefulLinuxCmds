@@ -9,3 +9,14 @@ Linux Commands
 
 * 找出所有含 "debug" 字詞的 cpp 檔案<br> 
 `find . -name \*.cpp -exec grep -q "debug" '{}' \; -print`
+
+
+Git Commands
+==
+* Git Aliases
+```
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+```
