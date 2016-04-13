@@ -16,6 +16,10 @@ find -P `pwd` /Google\ Drive/habits -mindepth 1 -maxdepth 1 -type d -exec ln -fn
 find . -name \*.cpp -exec grep -q "debug" '{}' \; -print
 ```
 
+* 查看 Ubuntu 的發行版代號 （Codename)
+```
+lsb_release -a
+```
 
 Git Commands
 ==
