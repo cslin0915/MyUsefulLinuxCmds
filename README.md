@@ -1,6 +1,6 @@
 ### Table of Contents
-**[Linux Commands](#linux-commands)**
-**[Git Commands](#git-commands)**
+**[Linux Commands](#linux-commands)**  
+**[Git Commands](#git-commands)**  
 
 Linux Commands
 ==
