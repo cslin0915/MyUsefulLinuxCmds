@@ -1,6 +1,7 @@
 ### Table of Contents
-**[Linux Commands](#linux-commands)**  
-**[Git Commands](#git-commands)**  
+| OSs | VCSs |
+| :---: | :---: |
+| **[Linux Commands](#linux-commands)** | **[Git Commands](#git-commands)** |  
 
 Linux Commands
 ==
