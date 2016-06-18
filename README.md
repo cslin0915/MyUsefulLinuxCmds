@@ -28,8 +28,12 @@ lsb_release -a
 
 Git Commands
 ==
+| | | |
+| :---: | :---: | :---: |
+| **[Alias](alias-related)** | **[Remote](remote-related)** | **[List](list-related)** |
 
-* Alias
+
+* Alias Related
 ```
 git config --global alias.co checkout
 git config --global alias.br branch
@@ -37,8 +41,7 @@ git config --global alias.ci commit
 git config --global alias.st status
 ```
 
-
-* Remote
+* Remote Related
 ```
 git remote -v
 git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
@@ -46,4 +49,9 @@ git remote add pb https://github.com/USERNAME/OTHERREPOSITORY.git
 git remote show pb
 git remote rename pb paul
 git remote rm paul
+```
+
+* List Related
+```
+git ls-tree -r master --name-only
 ```
