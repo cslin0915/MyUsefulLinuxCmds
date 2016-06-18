@@ -30,7 +30,7 @@ Git Commands
 ==
 | | | |
 | :---: | :---: | :---: |
-| **[Alias](alias-related)** | **[Remote](remote-related)** | **[List](list-related)** |
+| **[Alias](alias)** | **[Remote](remote)** | **[List](list)** |
 
 
 Alias Related
