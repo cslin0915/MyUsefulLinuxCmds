@@ -28,9 +28,9 @@ lsb_release -a
 
 Git Commands
 ==
-| | | |
-| :---: | :---: | :---: |
-| **[Alias](#alias-related)** | **[Remote](remote-related)** | **[List](list-related)** |
+| | | | | |
+| :---: | :---: | :---: | :---: | :---: |
+| **[Alias](#alias-related)** | **[Remote](#remote-related)** | **[List](#list-related)** | **[Remove](#remove-related)** | | 
 
 
 Alias Related
@@ -57,4 +57,17 @@ List Related
 --
 ```
 git ls-tree -r master --name-only
+```
+
+Remove Related
+--
+```
+```
+### Untrack Files In Git Repos Without Deleting Them
+```
+echo "*.config">>.gitignore; 
+git rm --cached "*.config"; 
+git add .; 
+git commit -m "Ignoring and deleting config files." ; 
+git push origin;
 ```
