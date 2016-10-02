@@ -61,10 +61,6 @@ git ls-tree -r master --name-only
 
 Remove Related
 --
-### Remove Files In Git Repos ...
-```
-git ls-files | awk '!/java/ && !/gitignore/' | xargs git rm
-```
 ### Untrack Files In Git Repos Without Deleting Them
 ```
 echo "*.config">>.gitignore; 
@@ -73,3 +69,7 @@ git add .;
 git commit -m "Ignoring and deleting config files." ; 
 git push origin;
 ```
+```
+git ls-files | awk '!/java/ && !/gitignore/' | xargs git rm --cached
+```
+
