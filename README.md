@@ -61,7 +61,9 @@ git ls-tree -r master --name-only
 
 Remove Related
 --
+### Remove Files In Git Repos ...
 ```
+git ls-files | awk '!/java/ && !/gitignore/' | xargs git rm
 ```
 ### Untrack Files In Git Repos Without Deleting Them
 ```
