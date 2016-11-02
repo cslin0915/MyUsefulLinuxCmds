@@ -26,6 +26,11 @@ find . -name \*.cpp -exec grep -q "debug" '{}' \; -print
 lsb_release -a
 ```
 
+### 找出含有特定字串的資料夾後, 將這些資料夾移動到另一資料夾下
+```
+ls | grep -v "OPV-1778" | grep "OPV" | xargs -I '{}' mv '{}' done
+```
+
 Git Commands
 ==
 | | | | | |
